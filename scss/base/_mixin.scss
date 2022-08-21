@@ -1,0 +1,19 @@
+
+
+@mixin encabeza{
+  font-size: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+.estiloHead{
+
+  @include encabeza()
+}
+
+@mixin colores($colors) {
+  background-color: $colors;
+}

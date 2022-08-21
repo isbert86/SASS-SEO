@@ -1,0 +1,88 @@
+.estiloHead {
+
+    
+    
+    background-image: url(../Imagenes/imgenppalgrande.jpg); 
+    
+    
+}
+
+
+
+.estiloServicio {
+    font-size: map-get($map: $main, $key:tam-header  );
+    font-family: map-get($map: $main, $key: tip-letra );
+    text-align: map-get($map: $main, $key:alineaciontxt );
+    background-image: url(../Imagenes/Nuestros\ Servicios.jpg);
+    background-repeat: map-get($map: $main, $key: bg-repetici ) ;
+    background-size: map-get($map: $main, $key:bg-tamano );
+    padding: map-get($map: $main, $key:relleno-separ ) ;
+}
+
+.estiloFaciales {
+
+    font-size: map-get($map: $main, $key:tam-header  );
+    font-family: map-get($map: $main, $key: tip-letra );
+    text-align: map-get($map: $main, $key:alineaciontxt );
+    background-image: url(../Imagenes/inyecto.jpg);
+    background-repeat: map-get($map: $main, $key: bg-repetici ) ;
+    background-size: map-get($map: $main, $key:bg-tamano );
+    padding: map-get($map: $main, $key:relleno-separ ) ;
+}
+
+h3.estiloCorporales {
+
+    font-size: map-get($map: $main, $key:tam-header  );
+    font-family: map-get($map: $main, $key: tip-letra );
+    text-align: map-get($map: $main, $key:alineaciontxt );
+    background-image: url(../Imagenes/cuerpo.jpg);
+    background-repeat: map-get($map: $main, $key: bg-repetici ) ;
+    background-size: map-get($map: $main, $key:bg-tamano );
+    padding: map-get($map: $main, $key:relleno-separ ) ;
+}
+
+h3.estiloCapilares {
+
+    font-size: map-get($map: $main, $key:tam-header  );
+    font-family: map-get($map: $main, $key: tip-letra );
+    text-align: map-get($map: $main, $key:alineaciontxt );
+    background-image: url(../Imagenes/plasmamasculino.jpg);
+    background-repeat: map-get($map: $main, $key: bg-repetici ) ;
+    background-size: map-get($map: $main, $key:bg-tamano );
+    padding: map-get($map: $main, $key:relleno-separ ) ;
+}
+
+.estiloQuienes {
+   @extend %disposicion;
+    font-size: 2rem;     
+    background-color: #18658A;
+}
+
+h2.titleQuienes {
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5rem 0;
+    justify-items: center;
+}
+
+h2.estiloContacto {
+    font-size: 3rem;
+    text-decoration: none;
+    grid-area: footer;  
+    justify-items: center;  
+}
+
+.contacto{
+background-color: #18658a;
+
+}
+
+ul .estiloRedes {
+ list-style: none;
+}
+.imgRedes{
+max-width: 25px;
+max-height: 25px;
+border-radius: 25%;
+}
